@@ -1,23 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-:root {
-  --font-base: 'Lexend', san-serif;
-  --font-second-base: 'Inter', san-serif;
-  --bg-color: #111;
-  --primary-color: #ffffff;
-  --secondary-color: #e50914;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  background: #111;
-} */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import "./Components/Styles/responsive.css";
 
 :root {
   --font-base: 'Lexend', sans-serif;
@@ -36,6 +21,3 @@ body{
 body {
   background: #111;
 }
-
-/* ✅ Import your responsive styles at the end */
-@import "./Components/Styles/responsive.css";
