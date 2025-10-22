@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter...&display=swap');
-@import "./Components/Styles/responsive.css";
+/* @import "./Components/Styles/responsive.css"; */
 :root {
   --font-base: 'Lexend', sans-serif;
   --font-second-base: 'Inter', sans-serif;
