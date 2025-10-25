@@ -1,0 +1,66 @@
+ /* Fixed Header Container */
+.header_outer_container {
+  position: sticky; /* Stay fixed at top */
+  top: 0;
+
+  /* left: 0; */
+  /* width: 100%; ✅ Make sure it spans the full width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20); /* Dark background */
+  /* background-color: transparent; */
+  background-color: #141414;
+  height: 12vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+}
+/* Inner header container */
+.header_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+/* Nav list styles */
+.header_left ul {
+  width: 140%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  list-style-type: none;
+  color: white;
+
+}
+.header_left ul li :hover{
+  cursor: pointer;
+  color: #888;
+
+}
+
+.header_right ul{
+  width: 140%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  list-style-type: none;
+  color: white;
+
+}
+
+/* Hover effect */
+.header_left ul li:hover {
+  cursor: pointer;
+  color: #888;
+ 
+} 
+
+  .header_left ul li,
+  .header_right ul li {
+    font-size: 12px;
+
+  }
